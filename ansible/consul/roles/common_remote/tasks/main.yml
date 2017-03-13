@@ -1,0 +1,8 @@
+---
+ - name: Creates directory
+   file: path=/opt/consul state=directory
+
+ - unarchive:
+     src: /opt/consul_0.7.5_linux_amd64.zip
+     dest: /opt/consul
+
