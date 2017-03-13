@@ -1,0 +1,17 @@
+---
+
+- name: install consul server - local
+  hosts: consul-server
+  remote_user: root
+
+  roles:
+    - common
+
+- name: install consul clients
+  hosts: consul-clients
+  remote_user: root
+
+  roles:
+    - common_remote
+
+
