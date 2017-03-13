@@ -1,0 +1,9 @@
+---
+# Variables listed here are applicable to all host groups
+
+server_addr: 162.243.242.31
+consul_parent_dir: /opt/consul
+data_dir: /data/consul
+consul_binary: /opt/consul_0.7.5_linux_amd64.zip
+datacenter: dc1
+
