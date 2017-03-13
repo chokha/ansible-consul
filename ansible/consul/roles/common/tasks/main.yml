@@ -7,3 +7,5 @@
      src: /opt/consul_0.7.5_linux_amd64.zip
      dest: /opt/consul
 
+ - name:
+   shell: nohup /opt/consul/consul agent -server -data-dir="/data/consul" -ui -bootstrap-expect 3 -bind 162.243.242.31 2>/opt/consul.out > /opt/consul/consul.out&
