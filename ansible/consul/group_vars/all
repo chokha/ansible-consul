@@ -1,7 +1,7 @@
 ---
-# Variables listed here are applicable to all host groups
+# Variables listed here are applicable to all host groups.Change directory path as needed.
 
-server_addr: 162.243.242.31
+server_addr: 192.x.x.x
 consul_parent_dir: /opt/consul
 data_dir: /data/consul
 consul_binary: /opt/consul_0.7.5_linux_amd64.zip
