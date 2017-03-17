@@ -5,11 +5,11 @@ localhost
 ansible_connection=local
 
 [consul-clients]
-162.243.241.246
-162.243.241.228
+192.x.x.x
+192.x.x.x
 
 [consul-clients:vars]
 ansible_connection=ssh
-ansible_ssh_private_key_file = /root/.ssh/id_rsa_spreedly
+ansible_ssh_private_key_file = ???
 ansible_user = root
 
